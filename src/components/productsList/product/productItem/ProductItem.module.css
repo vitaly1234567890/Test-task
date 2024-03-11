@@ -1,4 +1,4 @@
-.product {
+.root {
     width: 150px;
     display: flex;
     flex-direction: column;
@@ -10,25 +10,10 @@
     border: 2px solid black;
     border-radius: 10px;
     font-size: 10px;
-}
-
-.noUnderline {
     text-decoration: none;
 }
 
-
-
-.product h2 {
-    font-size: 15px;
-}
-
-.product img {
+.root img {
     height: 100px;
     width: 100px;
-    margin: 10px 0 10px 0;
-    border-radius: 10px;
-}
-
-.button {
-    margin-top: 15px;
 }
