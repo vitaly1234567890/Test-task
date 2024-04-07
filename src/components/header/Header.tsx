@@ -7,7 +7,6 @@ import {useSelector} from "react-redux";
 import {AppRootStateType} from "../../app/store";
 import {productType} from "../../types/Types";
 
-
 function HomeIcon(props: SvgIconProps) {
     return (
         <SvgIcon {...props}>
@@ -26,7 +25,7 @@ export const Header = () => {
         <div className={s.header}>
             <NavLink to={'/'}><HomeIcon color="primary" fontSize="large"/></NavLink>
             <div>
-                {totalCount>0 && <>{totalCount}$</> }
+                {totalCount > 0 && <>{totalCount}$</>}
                 <NavLink to={'card'}><AddShoppingCartIcon/></NavLink>
             </div>
         </div>
